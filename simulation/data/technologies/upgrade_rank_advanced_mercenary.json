@@ -1,0 +1,31 @@
+{
+	"genericName": "Expertise In War",
+	"description": "Hire professional mercenaries to fight in your army.",
+	"cost": {
+		"gold": 600
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{
+				"any": [
+					{ "civ": "athen" },
+					{ "civ": "cart" },
+					{ "civ": "kush" },
+					{ "civ": "mace" },
+					{ "civ": "ptol" },
+					{ "civ": "sele" }
+				]
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Mercenaries are promoted to Advanced rank.",
+	"modifications": [
+		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Basic" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"affects": ["Mercenary"]
+}

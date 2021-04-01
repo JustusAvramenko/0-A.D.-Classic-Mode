@@ -10,9 +10,8 @@
 	},
 	"description": "A festival to celebrate fertility.",
 	"cost": {
-		"food": 250,
-		"wood": 100,
-		"metal": 100
+		"food": 200,
+		"gold": 200
 	},
 	"requirements": { "tech": "phase_village" },
 	"icon": "wives_festival.png",

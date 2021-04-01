@@ -56,7 +56,7 @@
     <Resources>
       <wood>500</wood>
       <stone>500</stone>
-      <metal>500</metal>
+      <gold>500</gold>
     </Resources>
   </Cost>
   <Footprint>
@@ -86,7 +86,7 @@
   <Loot>
     <wood>100</wood>
     <stone>100</stone>
-    <metal>100</metal>
+    <gold>100</gold>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
@@ -126,7 +126,7 @@
     </Foundation>
   </Resistance>
   <ResourceDropsite>
-    <Types>food wood stone metal</Types>
+    <Types>food wood stone gold</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
   <Sound>

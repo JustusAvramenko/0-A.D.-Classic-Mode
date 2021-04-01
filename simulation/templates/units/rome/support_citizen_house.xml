@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/rome/support_citizen">
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>45</BuildTime>
   </Cost>
   <Identity>
     <RequiredTechnology>unlock_citizens_house</RequiredTechnology>

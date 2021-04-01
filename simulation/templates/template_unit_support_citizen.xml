@@ -52,7 +52,7 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>9</BuildTime>
+    <BuildTime>15</BuildTime>
     <Resources>
       <food>50</food>
     </Resources>
@@ -80,13 +80,13 @@
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
       <food.fruit>1</food.fruit>
-      <food.grain>0.5</food.grain>
+      <food.grain>1</food.grain>
       <food.meat>1</food.meat>
       <wood.tree>0.9</wood.tree>
       <wood.ruins>4.5</wood.ruins>
       <stone.rock>0.5</stone.rock>
       <stone.ruins>2.5</stone.ruins>
-      <metal.ore>0.5</metal.ore>
+      <gold.ore>0.5</gold.ore>
     </Rates>
   </ResourceGatherer>
   <Sound>

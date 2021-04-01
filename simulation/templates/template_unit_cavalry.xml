@@ -8,6 +8,13 @@
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
     </Capture>
+    <Slaughter>
+      <AttackName>Slaughter</AttackName>
+      <Damage>
+        <Hack>1000</Hack>
+      </Damage>
+      <MaxRange>2</MaxRange>
+    </Slaughter>
   </Attack>
   <Cost>
     <BuildTime>18</BuildTime>
@@ -36,7 +43,7 @@
     <food>10</food>
     <wood>5</wood>
     <stone>0</stone>
-    <metal>0</metal>
+    <gold>0</gold>
   </Loot>
   <Position>
     <TurnRate>5</TurnRate>

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Ship"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.8 },
+		{ "value": "Cost/Resources/gold", "multiply": 0.5 }
+	],
+	"auraName": "Naval Architect",
+	"auraDescription": "Ships −50% gold cost, −20% construction time."
+}
