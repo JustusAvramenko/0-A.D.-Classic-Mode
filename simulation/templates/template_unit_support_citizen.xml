@@ -34,6 +34,7 @@
       structures/{civ}/corral
       structures/{civ}/dock
       structures/{civ}/barracks
+      structures/{civ}/range
       structures/{civ}/stable
       structures/{civ}/elephant_stables
       structures/{civ}/arsenal
