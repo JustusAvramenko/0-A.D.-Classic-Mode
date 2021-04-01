@@ -38,15 +38,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/kush/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/kush/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/kush/cavalry_javelineer_b"
+			"Template": "units/kush/cavalry_scout"
 		},
 		{
 			"Template": "units/kush/support_healer_b"
@@ -86,7 +78,8 @@
 		"Amanishakheto"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/kush/infantry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/units/special_starting_unit": "units/kush/support_healer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},

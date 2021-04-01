@@ -40,15 +40,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/gaul/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/gaul/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/gaul/cavalry_javelineer_b"
+			"Template": "units/gaul/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -76,6 +68,8 @@
 		"Viridovix"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

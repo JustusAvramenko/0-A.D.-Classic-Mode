@@ -36,15 +36,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/mace/infantry_pikeman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/mace/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/mace/cavalry_spearman_b"
+			"Template": "units/mace/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -77,8 +69,8 @@
 		"Meleager"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/mace/cavalry_spearman_b",
-		"skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

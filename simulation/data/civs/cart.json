@@ -44,15 +44,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/cart/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/cart/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/cart/cavalry_javelineer_b"
+			"Template": "units/cart/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -87,7 +79,8 @@
 		"Hasdrubal the Boetharch"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/cart/infantry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

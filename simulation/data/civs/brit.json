@@ -40,15 +40,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/brit/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/brit/infantry_slinger_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/brit/cavalry_javelineer_b",
+			"Template": "units/brit/cavalry_scout",
 			"Count": 1
 		},
 		{
@@ -81,7 +73,8 @@
 		"Vosenius"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/brit/infantry_slinger_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/units/special_starting_unit": "units/brit/war_dog",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},

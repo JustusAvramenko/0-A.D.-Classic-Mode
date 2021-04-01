@@ -36,15 +36,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/maur/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/maur/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/maur/cavalry_javelineer_b",
+			"Template": "units/maur/cavalry_scout",
 			"Count": 1
 		},
 		{
@@ -76,7 +68,8 @@
 		"Brihadratha Maurya"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/units/special_starting_unit": "units/maur/support_elephant",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},

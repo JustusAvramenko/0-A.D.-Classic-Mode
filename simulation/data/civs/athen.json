@@ -42,15 +42,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/athen/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/athen/infantry_slinger_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/athen/cavalry_javelineer_b"
+			"Template": "units/athen/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -84,7 +76,8 @@
 		"Demosthenes"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/athen/infantry_slinger_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

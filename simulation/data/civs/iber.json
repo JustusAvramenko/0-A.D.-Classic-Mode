@@ -43,15 +43,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/iber/infantry_swordsman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/iber/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/iber/cavalry_javelineer_b"
+			"Template": "units/iber/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -77,7 +69,8 @@
 		"Tautalus"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_melee_b": "units/iber/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_5": "structures/{civ}/house",
 		"skirmish/structures/iber/wall_short": "structures/iber/wall_short",
 		"skirmish/structures/iber/wall_medium": "structures/iber/wall_medium",

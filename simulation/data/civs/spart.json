@@ -42,15 +42,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/spart/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/spart/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/spart/cavalry_javelineer_b"
+			"Template": "units/spart/cavalry_scout"
 		}
 	],
 	"Formations": [
@@ -81,6 +73,8 @@
 		"Agesipolis"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
 		"skirmish/structures/default_wall_tower": "",
 		"skirmish/structures/default_wall_gate": "",
