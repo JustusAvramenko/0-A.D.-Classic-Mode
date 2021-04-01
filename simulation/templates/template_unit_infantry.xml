@@ -8,60 +8,22 @@
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
     </Capture>
-    <Slaughter>
-      <AttackName>Slaughter</AttackName>
-      <Damage>
-        <Hack>1000</Hack>
-      </Damage>
-      <MaxRange>2</MaxRange>
-    </Slaughter>
   </Attack>
-  <Builder>
-    <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}/civil_centre
-      structures/{civ}/crannog
-      structures/{civ}/military_colony
-      structures/{civ}/house
-      structures/{civ}/apartment
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/{civ}/corral
-      structures/{civ}/dock
-      structures/{civ}/barracks
-      structures/{civ}/stable
-      structures/{civ}/elephant_stables
-      structures/{civ}/arsenal
-      structures/{civ}/forge
-      structures/{civ}/temple
-      structures/{civ}/market
-      structures/{civ}/outpost
-      structures/{civ}/sentry_tower
-      structures/{civ}/defense_tower
-      structures/{civ}/fortress
-      structures/wallset_palisade
-      structures/{civ}/wallset_siege
-      structures/{civ}/wallset_stone
-      structures/{civ}/theater
-      structures/{civ}/wonder
-    </Entities>
-  </Builder>
   <Cost>
-    <BuildTime>12</BuildTime>
+    <BuildTime>15</BuildTime>
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>0</metal>
+      <gold>0</gold>
     </Resources>
   </Cost>
   <Health>
-    <Max>80</Max>
+    <Max>100</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Human CitizenSoldier</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
+    <Classes datatype="tokens">Human</Classes>
+    <VisibleClasses datatype="tokens">Soldier Infantry</VisibleClasses>
     <GenericName>Infantry</GenericName>
     <Rank>Basic</Rank>
   </Identity>
@@ -76,31 +38,17 @@
     <Anchor>upright</Anchor>
   </Position>
   <Promotion>
-    <RequiredXp>100</RequiredXp>
+    <RequiredXp>500</RequiredXp>
   </Promotion>
   <Resistance>
     <Entity>
       <Damage>
         <Hack>2</Hack>
-        <Pierce>4</Pierce>
-        <Crush>15</Crush>
+        <Pierce>1</Pierce>
+        <Crush>10</Crush>
       </Damage>
     </Entity>
   </Resistance>
-  <ResourceGatherer>
-    <MaxDistance>2.0</MaxDistance>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Rates>
-      <food.fruit>0.6</food.fruit>
-      <food.grain>0.3</food.grain>
-      <food.meat>1</food.meat>
-      <wood.tree>0.6</wood.tree>
-      <wood.ruins>3.5</wood.ruins>
-      <stone.rock>0.4</stone.rock>
-      <stone.ruins>2</stone.ruins>
-      <metal.ore>0.4</metal.ore>
-    </Rates>
-  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
@@ -127,6 +75,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>80</Range>
+    <Range>50</Range>
   </Vision>
 </Entity>
