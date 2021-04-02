@@ -37,14 +37,14 @@
     <Category>Fortress</Category>
     <Distance>
       <FromClass>Fortress</FromClass>
-      <MinDistance>80</MinDistance>
+      <MinDistance>60</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>450</BuildTime>
+    <BuildTime>400</BuildTime>
     <Resources>
-      <wood>300</wood>
-      <stone>600</stone>
+      <wood>0</wood>
+      <stone>650</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -92,7 +92,7 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>90</Range>
+    <Range>80</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
