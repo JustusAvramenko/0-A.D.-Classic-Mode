@@ -54,7 +54,7 @@
       <food>1.0</food>
       <wood>1.0</wood>
       <stone>0.75</stone>
-      <metal>0.75</metal>
+      <gold>0.75</gold>
     </Rates>
     <Interval>1000</Interval>
   </ResourceTrickle>
@@ -64,11 +64,6 @@
       <constructed>interface/complete/building/complete_broch.xml</constructed>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>48</Radius>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>40</Range>
   </Vision>
