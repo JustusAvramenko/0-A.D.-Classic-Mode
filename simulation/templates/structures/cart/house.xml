@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="14.5" depth="14.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Bet</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <Upgrade>
+    <Apartments>
+      <Entity>structures/cart/house_apartment</Entity>
+      <Tooltip>Upgrade this house to an Apartment bloc, which has greater health and population bonus.</Tooltip>
+	  <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <wood>50</wood>
+      </Cost>
+      <Time>30</Time>
+	  <Variant>upgrading</Variant>
+    </Apartments>
+  </Upgrade>
+  <VisualActor>
+    <FoundationActor>structures/carthaginians/fndn_house.xml</FoundationActor>
+	<Actor>structures/carthaginians/house.xml</Actor>
+  </VisualActor>
+</Entity>
