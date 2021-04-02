@@ -30,7 +30,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Human CitizenSoldier</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry Bribable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Citizen Soldier Infantry Bribable</VisibleClasses>
     <GenericName>Infantry</GenericName>
     <Rank>Basic</Rank>
   </Identity>
