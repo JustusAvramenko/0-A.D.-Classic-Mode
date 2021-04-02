@@ -6,9 +6,6 @@
     <EndOfAlertRange>100</EndOfAlertRange>
     <SearchRange>100</SearchRange>
   </AlertRaiser>
-  <Capturable>
-    <CapturePoints>300</CapturePoints>
-  </Capturable>
   <Cost>
     <BuildTime>40</BuildTime>
     <Resources>
@@ -67,11 +64,6 @@
       <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>20</Range>
   </Vision>

@@ -24,32 +24,51 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/civil_centre
+      structures/{civ}/prytaneion
+      structures/{civ}/pyramid_small
+      structures/{civ}/pyramid_large
+      structures/{civ}/pillar_ashoka
+      structures/{civ}/library
+      structures/{civ}/lighthouse
       structures/{civ}/crannog
       structures/{civ}/military_colony
-      structures/{civ}/house
-      structures/{civ}/apartment
+      structures/{native}/house
       structures/{civ}/storehouse
       structures/{civ}/farmstead
       structures/{civ}/field
       structures/{civ}/corral
       structures/{civ}/dock
+      structures/{civ}/super_dock
+      structures/{civ}/embassy_celtic
+      structures/{civ}/embassy_iberian
+      structures/{civ}/embassy_italic
       structures/{civ}/barracks
       structures/{civ}/range
       structures/{civ}/stable
+      structures/{civ}/camp_blemmye
+      structures/{civ}/camp_noba
+      structures/{civ}/gymnasium
       structures/{civ}/elephant_stables
       structures/{civ}/arsenal
       structures/{civ}/forge
-      structures/{civ}/temple
+      structures/{native}/temple
+      structures/{civ}/temple_vesta
+      structures/{civ}/temple_amun
       structures/{civ}/market
       structures/{civ}/outpost
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
+      structures/{civ}/monument
       structures/{civ}/fortress
+      structures/{civ}/army_camp
       structures/wallset_palisade
       structures/{civ}/wallset_siege
       structures/{civ}/wallset_stone
+      structures/{civ}/apadana
+      structures/{civ}/palace
+      structures/{civ}/assembly
       structures/{civ}/theater
-      structures/{civ}/wonder
+      structures/{native}/wonder
     </Entities>
   </Builder>
   <Cost>
@@ -63,7 +82,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Civilian Builder Gatherer</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <VisibleClasses datatype="tokens">Citizen Worker Bribable</VisibleClasses>
     <GenericName>Citizen</GenericName>
     <SelectionGroupName>template_unit_support_citizen</SelectionGroupName>
 	<Phenotype datatype="tokens">

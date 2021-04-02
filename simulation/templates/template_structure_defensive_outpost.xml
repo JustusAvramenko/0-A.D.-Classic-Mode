@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive">
+  <Attack>
+    <Ranged>
+      <AttackName>Arrow</AttackName>
+      <Damage>
+	    <Hack>0.0</Hack>
+        <Pierce>12.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>30.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>50.0</Speed>
+        <Spread>2.0</Spread>
+        <Gravity>30</Gravity>
+		<FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Soldier</PreferredClasses>
+      <Bonuses>
+        <NerfSiege>
+          <Classes>Siege</Classes>
+          <Multiplier>0.75</Multiplier>
+        </NerfSiege>
+      </Bonuses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.1</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Territory>own neutral ally enemy</Territory>
+    <Distance>
+      <FromClass>Outpost</FromClass>
+      <MinDistance>50</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>500</CapturePoints>
+    <RegenRate>5.0</RegenRate>
+    <GarrisonRegenRate>5.0</GarrisonRegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="7.0" depth="7.0"/>
+    <Height>13.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>1</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Outpost</GenericName>
+    <SelectionGroupName>template_structure_defensive_outpost</SelectionGroupName>
+    <Tooltip>Build to see large sections of the map.</Tooltip>
+    <VisibleClasses datatype="tokens">Outpost</VisibleClasses>
+    <Icon>structures/outpost.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>12</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="6.0" depth="6.0"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>20</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_tower.xml</constructed>
+      <select>interface/select/building/sel_tower.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>14.0</HeightOffset>
+  </StatusBars>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

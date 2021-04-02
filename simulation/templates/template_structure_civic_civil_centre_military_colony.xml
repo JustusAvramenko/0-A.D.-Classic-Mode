@@ -4,12 +4,8 @@
     <DefaultArrowCount>1</DefaultArrowCount>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
+    <Territory>own neutral ally enemy</Territory>
     <Category>Colony</Category>
-    <Distance>
-      <FromClass>CivilCentre</FromClass>
-      <MinDistance>120</MinDistance>
-    </Distance>
   </BuildRestrictions>
   <Cost>
     <BuildTime>300</BuildTime>
@@ -49,7 +45,4 @@
       <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>80</Radius>
-  </TerritoryInfluence>
 </Entity>

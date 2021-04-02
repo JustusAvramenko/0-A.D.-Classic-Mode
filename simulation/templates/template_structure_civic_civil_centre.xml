@@ -8,7 +8,7 @@
   </AlertRaiser>
   <Attack>
     <Ranged>
-      <AttackName>Bow</AttackName>
+      <AttackName>Arrow</AttackName>
       <Damage>
         <Hack>0</Hack>
         <Pierce>12</Pierce>
@@ -22,7 +22,7 @@
       <Projectile>
         <Speed>100.0</Speed>
         <Spread>1.5</Spread>
-        <Gravity>50.0</Gravity>
+        <Gravity>30</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
@@ -40,16 +40,13 @@
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
+    <Territory>own neutral ally enemy</Territory>
     <Category>CivilCentre</Category>
-    <Distance>
-      <FromClass>CivilCentre</FromClass>
-      <MinDistance>200</MinDistance>
-    </Distance>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>2500</CapturePoints>
     <RegenRate>5.0</RegenRate>
+    <GarrisonRegenRate>5.0</GarrisonRegenRate>
   </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
@@ -139,11 +136,6 @@
       <attack_impact_ranged>attack/impact/arrow_impact.xml</attack_impact_ranged>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>140</Radius>
-    <Weight>10000</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>90</Range>
   </Vision>

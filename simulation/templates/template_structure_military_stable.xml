@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>100</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>50</stone>
+      <food>100</food>
+      <stone>200</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -35,7 +35,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <BatchTimeModifier>0.6</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/cavalry_scout
       units/{civ}/camelry_scout

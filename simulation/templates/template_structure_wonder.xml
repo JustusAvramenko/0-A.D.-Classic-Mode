@@ -6,10 +6,6 @@
   <BuildRestrictions>
     <Category>Wonder</Category>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>2000</CapturePoints>
-    <RegenRate>5.0</RegenRate>
-  </Capturable>
   <Cost>
     <BuildTime>1000</BuildTime>
     <Resources>
@@ -87,11 +83,6 @@
       <constructed>interface/complete/building/complete_wonder.xml</constructed>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>100</Radius>
-    <Weight>65535</Weight>
-  </TerritoryInfluence>
   <Vision>
     <Range>72</Range>
   </Vision>
