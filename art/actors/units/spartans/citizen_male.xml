@@ -32,7 +32,7 @@
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/carry_gold.xml"/>
 	<variant file="biped/approach_tree.xml"/>
 	<variant file="biped/approach_grain.xml"/>
 	<variant file="biped/approach_fruit.xml"/>

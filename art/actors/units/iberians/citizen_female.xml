@@ -38,7 +38,7 @@
     <variant file="biped/female_carry_meat.xml"/>
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
-    <variant file="biped/female_carry_metal.xml"/>
+    <variant file="biped/female_carry_gold.xml"/>
     <variant file="biped/approach_tree.xml"/>
     <variant file="biped/approach_grain.xml"/>
     <variant file="biped/approach_fruit.xml"/>
