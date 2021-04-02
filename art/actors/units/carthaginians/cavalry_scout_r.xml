@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Tunic-1a">
+      <textures>
+        <texture file="skeletal/cart_tunic_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-1b">
+      <textures>
+        <texture file="skeletal/cart_tunic_1_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-1c">
+      <textures>
+        <texture file="skeletal/cart_tunic_1_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-Sleeveless-1a">
+      <textures>
+        <texture file="skeletal/cart_tunic_sleeveless_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-Sleeveless-1b">
+      <textures>
+        <texture file="skeletal/cart_tunic_sleeveless_1_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-Sleeveless-1c">
+      <textures>
+        <texture file="skeletal/cart_tunic_sleeveless_1_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_relax.xml" frequency="1" name="Swordsman-Fast-Relax"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
