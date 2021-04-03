@@ -75,7 +75,7 @@
   <Identity>
     <GenericName>Civic Center</GenericName>
     <SelectionGroupName>template_structure_civic_civil_centre</SelectionGroupName>
-    <Tooltip>Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.</Tooltip>
+    <Tooltip>The foundation of your civilization. Train Citizens and research technologies. Garrison Soldiers for additional arrows.</Tooltip>
     <Classes datatype="tokens">CivCentre</Classes>
     <VisibleClasses datatype="tokens">Defensive CivilCentre</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
@@ -136,6 +136,11 @@
       <attack_impact_ranged>attack/impact/arrow_impact.xml</attack_impact_ranged>
     </SoundGroups>
   </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>140</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
   <Vision>
     <Range>90</Range>
   </Vision>
