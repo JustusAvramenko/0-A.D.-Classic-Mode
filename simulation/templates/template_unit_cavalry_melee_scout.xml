@@ -49,9 +49,6 @@ Weak Against: Everything.</Tooltip>
   <TrainingRestrictions>
     <Category>Scout</Category>
   </TrainingRestrictions>
-  <UnitMotion>
-    <WalkSpeed op="mul">1.2</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/hellenes/cavalry_scout.xml</Actor>
   </VisualActor>
