@@ -43,11 +43,6 @@
     <Territory>own neutral ally enemy</Territory>
     <Category>CivilCentre</Category>
   </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>2500</CapturePoints>
-    <RegenRate>5.0</RegenRate>
-    <GarrisonRegenRate>5.0</GarrisonRegenRate>
-  </Capturable>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
@@ -138,7 +133,7 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>140</Radius>
+    <Radius>150</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <Vision>
