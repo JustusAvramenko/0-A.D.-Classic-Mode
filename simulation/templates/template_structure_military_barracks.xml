@@ -49,8 +49,6 @@
     <Technologies datatype="tokens">
       barracks_batch_training
       infantry_cost_time
-      unlock_champion_infantry
-      pair_unlock_champions_sele
     </Technologies>
   </ProductionQueue>
   <Sound>
