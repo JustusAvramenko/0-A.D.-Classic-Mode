@@ -4,20 +4,4 @@
     <GenericName>Resource Structure</GenericName>
     <VisibleClasses datatype="tokens">Resource</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>20</Pierce>
-        <Crush>1</Crush>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>10</Pierce>
-        <Crush>1</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
 </Entity>

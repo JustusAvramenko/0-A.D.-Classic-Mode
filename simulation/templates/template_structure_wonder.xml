@@ -52,22 +52,6 @@
       wonder_population_cap
     </Technologies>
   </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>15</Hack>
-        <Pierce>25</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>2</Hack>
-        <Pierce>10</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
   <ResourceTrickle>
     <Rates>
       <food>1.0</food>

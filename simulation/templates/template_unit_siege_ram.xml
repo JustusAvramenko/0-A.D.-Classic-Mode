@@ -43,13 +43,6 @@
     <wood>60</wood>
     <gold>30</gold>
   </Loot>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Pierce>50</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <select>attack/siege/siege_select.xml</select>

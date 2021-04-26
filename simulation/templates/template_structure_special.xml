@@ -23,22 +23,6 @@
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>20</Hack>
-        <Pierce>30</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>3</Hack>
-        <Pierce>10</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>

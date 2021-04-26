@@ -43,15 +43,6 @@
       tower_watch
     </Technologies>
   </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">-5</Hack>
-        <Pierce op="add">-5</Pierce>
-        <Crush op="add">-2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Upgrade>
     <Tower>
       <Entity>structures/{civ}/defense_tower</Entity>

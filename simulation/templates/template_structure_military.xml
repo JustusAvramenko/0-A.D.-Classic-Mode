@@ -11,20 +11,4 @@
     <Classes datatype="tokens">ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Military</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>20</Hack>
-        <Pierce>35</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>5</Pierce>
-        <Crush>1</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
 </Entity>

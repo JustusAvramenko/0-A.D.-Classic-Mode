@@ -33,20 +33,6 @@
       upgrade_rank_advanced_mercenary
     </Technologies>
   </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Pierce>30</Pierce>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>3</Hack>
-        <Pierce>10</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_gymnasium.xml</select>

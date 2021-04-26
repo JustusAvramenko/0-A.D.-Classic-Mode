@@ -102,21 +102,6 @@
       hellenistic_metropolis
     </Technologies>
   </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">5</Hack>
-        <Pierce op="add">5</Pierce>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>15</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
   <ResourceDropsite>
     <Types>food wood stone gold</Types>
     <Sharable>true</Sharable>
