@@ -4,5 +4,5 @@
 	"label": "0 A.D. Classic Mode - Working Copy",
 	"url": "https://github.com/JustusAvramenko/0-A.D.-Classic-Mode",
 	"description": "An overhaul of 0 A.D. Empires Ascendant which turns the game into a classic RTS, such as Age of Empires.",
-	"dependencies": ["0ad>=0.0.24"]
+	"dependencies": ["0ad>=0.0.25"]
 }
